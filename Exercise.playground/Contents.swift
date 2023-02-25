@@ -18,14 +18,17 @@ var emptyMetalliceTreasureChest = TreasureChest(type: "Metallic Chest", content:
 
 func openTreasureChestWithIfLet(treasureChest: TreasureChest){
     // Write here your code to unwrap the contents of the treasure chest (if let)
+    print("\() found in " \(treasureChest.type))
 }
 
 func openTreasureChestWithGuardLet(treasureChest: TreasureChest){
     // Write here your code to unwrap the contents of the treasure chest (guard let)
+    print("\() found in " \(treasureChest.type))
 }
 
 func openTreasureChestWithNilCoalescing(treasureChest: TreasureChest){
     // Write here your code to unwrap the contents of the treasure chest (??)
+    print("\() found in " \(treasureChest.type))
 }
 
 openTreasureChestWithIfLet(treasureChest: smallTreasureChest)
