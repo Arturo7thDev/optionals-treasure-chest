@@ -28,7 +28,6 @@ func openTreasureChestWithNilCoalescing(treasureChest: TreasureChest){
     // Write here your code to unwrap the contents of the treasure chest (??)
 }
 
-
 openTreasureChestWithIfLet(treasureChest: smallTreasureChest)
 openTreasureChestWithGuardLet(treasureChest: regularTreasureChest)
 openTreasureChestWithNilCoalescing(treasureChest: metalliceTreasureChest)
@@ -36,3 +35,15 @@ print("--- --- --- --- --- ---")
 openTreasureChestWithIfLet(treasureChest: emptySmallTreasureChest)
 openTreasureChestWithGuardLet(treasureChest: emptyRegularTreasureChest)
 openTreasureChestWithNilCoalescing(treasureChest: emptyMetalliceTreasureChest)
+
+/*
+ EXPECTED RESULT:
+ 
+ 5 Rupees found in the Small Chest
+ Map found in the Regular Chest
+ Heart Container found in the Metallic Chest
+ --- --- --- --- --- ---
+ Nothing found in the Small Chest
+ Nothing found in the Regular Chest
+ Nothing found in the Metallic Chest
+ */
